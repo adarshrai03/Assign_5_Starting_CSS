@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML page</title>
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0%;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(140deg, rgb(198, 198, 198), rgb(87, 87, 87));
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head {
+        height: 50px;
+        border-radius: 20px;
+
+        box-shadow: 2px 2px 3px black;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .detail__head {
+        text-decoration: underline;
+        font-family: cursive;
+        margin-left: 10px;
+
+    }
+
+    .detail__text1 {
+        margin: 10px;
+        font-size: 1em;
+        border-radius: 10px;
+        border: .5px solid black;
+        box-shadow: 2px 2px 3px rgb(57, 0, 0);
+        height: 200px;
+        width: 600px;
+        text-align: center;
+
+    }
+
+    .detail__text2 {
+        margin: 10px;
+        font-size: 1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        border: .5px solid black;
+        box-shadow: 2px 2px 3px rgb(0, 49, 0);
+        height: 150px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .detail__text3 {
+        margin: 10px;
+        font-size: 1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        border: .5px solid black;
+        box-shadow: 2px 2px 3px rgb(4, 0, 74);
+        height: 150px;
+        width: 400px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Courses Of PW</h1>
+        </div>
+
+        <div class="detail">
+            <h2 class="detail__head">Full Stack Web Development</h2>
+            <p class="detail__text1">This course contain all the language related to full stack web Development like:
+                Structure of Web
+                HTML and HTML5 , Semantics and Accessibility , CSS and CSS3 , Advance CSS
+                CSS Framework Git and Github Foundation of Javascript Advance Javascript DSA React Networking
+                Networking Databases MySQL MongooDB NodeJS and Express CRUD App Auth App Full-Fledged Application
+            </p>
+
+            <h2 class="detail__head">Mastering Full Stack Data Analytics</h2>
+            <p class="detail__text2">Mastering Full Stack Data Analytics , This course, "Mastering Full Stack Data
+                Analytics," is made to give you the abilities and information required to be a competent full-stack data
+                analyst. You will learn how to use cutting-edge tools and methods to collect, organize, process,
+                analyze, and visualize data from multiple sources.</p>
+
+            <h2 class="detail__head">Building MicroServices in Java for Cloud</h2>
+            <p class="detail__text3">Building MicroServices in Java for Cloud
+                The course "Building MicroServices in Java for Cloud" is a comprehensive program that guides you through
+                the process of creating robust and scalable microservices using Java programming language. You will
+                learn the core concepts of microservices architecture, including service decomposition, communication,
+                and deployment strategies optimized for cloud environments.</p>
+    </div>
+    </div>
+</body>
+
+</html>

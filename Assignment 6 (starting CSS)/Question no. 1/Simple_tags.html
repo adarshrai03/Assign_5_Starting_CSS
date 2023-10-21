@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="external.css">
+    <title>Simple Webpage</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container{
+            background-image: linear-gradient(140deg , rgb(125, 125, 125) , rgb(255, 176, 225));
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 100vh;
+        }
+        .portion{
+            color: white;
+            margin-top: 40px;
+            text-align: center;
+            height: 200px;
+            width: 400px;
+            box-shadow: 1px 1px 3px black;
+
+            /* Here we target element's background color by internal CSS */
+            
+            background-image: linear-gradient(140deg , rgb(133, 1, 91) , black);
+            
+            border-radius: 20px;
+            
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Here we target element's background color by in-line CSS -->
+        
+        <div class="portion" id="b1" style="background-image: linear-gradient(blue ,black);" >Box 1</div>
+        <div class="portion" id="b2" style="background-image: linear-gradient(rgb(0, 255, 30) ,black);">Box 2</div>
+        <div class="portion" id="b3" style="background-image: linear-gradient(rgb(255, 132, 0) ,black);">Box 3</div>
+
+        <!-- we conclude that the preference of CSS applying is :- INLINE > INTERNAL > EXTERNAL -->
+    </div>
+</body>
+</html>
